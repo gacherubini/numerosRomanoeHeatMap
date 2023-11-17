@@ -1,0 +1,126 @@
+header{
+  height: 40px;
+  background-color: #333;
+}
+
+body{
+  font-family: "Lucida Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#root{
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh;
+}
+
+main {
+}
+
+footer{
+  background-color: #c1c1c1;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li{
+  padding: 5px;
+}
+
+.Home, .heatmap{
+  color: #fff; 
+  text-decoration: none; 
+  font-size: 1.5rem;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.div-informacoes {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.div-informacoes p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.div-informacoes p:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #333;
+}
+
+.roman {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+
+.btn{
+  padding: 3px 20px;
+  color: blue;
+  background: rgb(131, 131, 229);
+  text-decoration: none;
+  border-radius: 3rem;  
+}     
+
+.btn:hover{
+   background-color: blue;
+}   
+.div-footer {
+  text-align: center;
+}
+
+.div-footer h2 {
+  font-size: 30px;
+}
+
+.div-footer-sociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.div-footer-sociais a {
+  color: white;
+  font-size: 24px;
+}
