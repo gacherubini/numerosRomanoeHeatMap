@@ -14,6 +14,9 @@ const Header = () => {
       <li>
         <Link  className = "heatmap" to="/heatmap">HeatMap </Link>
       </li>
+      <li>
+        <Link  className = "treemap" to="/treemap">Treemap </Link>
+      </li>
     </ul> 
   </nav>  
   )

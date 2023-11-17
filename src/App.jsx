@@ -4,6 +4,7 @@ import RomanToDecimal from './pages/RomanToDecimal';
 import HeatMap from './pages/HeatMap';
 import Header from './Header';
 import Footer from './Footer';
+import TreeMap from './pages/TreeMap';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Routes>
                 <Route path="/" element = {<RomanToDecimal/>} />
                 <Route path="/heatmap" element = {<HeatMap/>} />
+                <Route path="/treemap" element = {<TreeMap/>} />
     </Routes>
     </main>
     <footer>

@@ -39,7 +39,7 @@ nav ul li{
   padding: 5px;
 }
 
-.Home, .heatmap{
+.Home, .heatmap, .treemap{
   color: #fff; 
   text-decoration: none; 
   font-size: 1.5rem;
@@ -78,6 +78,13 @@ h1 {
   margin-bottom: 10px;
 }
 
+h2{
+  size: '20px';
+  font-weight: '700';
+  font-style: 'Normal';
+  font-family: 'Segoe UI';
+  text-align: center;
+}
 .input-container {
   margin-bottom: 20px;
 }
