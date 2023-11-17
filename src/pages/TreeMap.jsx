@@ -37,7 +37,7 @@ function TreeMap() {
             <h2>População mundial por País,informações extraidas do Banco de Dados de Indicadores de Desenvolvimento Mundial</h2>
             <TreeMapComponent 
             height='500px'
-            width='1600px'
+            width='85%'
             dataSource={data}
             weightValuePath='Population'
             rangeColorValuePath='Population'
