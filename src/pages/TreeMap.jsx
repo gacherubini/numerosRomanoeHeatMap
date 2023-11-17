@@ -36,14 +36,15 @@ function TreeMap() {
         <div>
             <h2>População mundial por País,informações extraidas do Banco de Dados de Indicadores de Desenvolvimento Mundial</h2>
             <TreeMapComponent 
-            height='600px'
-            width='1700px'
+            height='500px'
+            width='1600px'
             dataSource={data}
             weightValuePath='Population'
             rangeColorValuePath='Population'
             leafItemSettings={{
             labelPath: 'State',
-            labelPosition:'TopCenter',
+            labelPosition:'Center',
+            padding:0,
             colorMapping: colorMapping
         }}>
     </TreeMapComponent> 
