@@ -31,7 +31,7 @@ export function HeatMap() {
   return (
     <HeatMapComponent
       titleSettings={{
-        text: 'Porcentagem de eletricidade ao longo dos anos nos países ( % )',
+        text: 'Porcentagem de eletricidade ao longo dos anos nos países ( % ), informações extraidas do Banco de Dados de Indicadores de Desenvolvimento Mundial',
         textStyle: {
           size: '20px',
           fontWeight: '700',
